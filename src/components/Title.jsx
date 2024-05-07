@@ -3,6 +3,7 @@ import SocialMedia from "./SocialMedia";
 export default function Title() {
     return (
       <div className="container">
+        <div className="main-page-bg"></div>
         <div className="title-container">
             <h1>ASER MALIK</h1>
             <div className ="divider"></div>

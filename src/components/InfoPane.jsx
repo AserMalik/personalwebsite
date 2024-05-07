@@ -7,9 +7,14 @@ export default function InfoPane() {
             <div className="info-divider"></div>
             <h3>SOFTWARE ENGINEER 🛠</h3>
             <div className="info-brief">
-                I'm a primarily front-end software developer with experience working back-end and wearing different hats. Here are the languages I'm experienced in:
+                I'm a primarily front-end software developer with experience working back-end and wearing different hats.
+                <ul className="info-menu">
+                    <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+                    <li><a href="#PROJECTS">PROJECTS</a></li>
+                </ul>
             </div>
             {/*list of languages should go here*/}
+
             <SocialMedia />
         </div>
     );

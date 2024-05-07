@@ -14,7 +14,7 @@ ListContainer.propTypes = {
 export default function ListContainer(props) {
     if (!props.positionDates || !props.position || !props.positionDetails || !props.descriptions) return null;
     return (
-        <div className="list">
+        <div className="list" id={props.title}>
             <h2>{props.title}</h2>
             <div className="info-divider"></div>
             <ListItem position={props.position[0]} positionDetails={props.positionDetails[0]} date={props.positionDates[0]} description={props.descriptions[0]} skills={props.skills[0]} />
