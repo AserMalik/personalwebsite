@@ -97,6 +97,11 @@
   overflow-y: scroll;
 }
 
+a .list-item {
+  color: white;
+  font-weight: initial;
+}
+
 .list {
   overflow-x: hidden;
   text-align: left;

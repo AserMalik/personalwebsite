@@ -51,9 +51,13 @@ export default function Body() {
             ["Visual Basic", "PowerShell", "Active Directory", "Microsoft Office"]
         ];
 
+    const urls = ["https://www.opentext.com/", "https://imaginecommunications.com/", "https://www.mcap.com/",
+    "https://www.economical.com/en/home", "https://www.goodmans.ca/", "https://www.teranet.ca/", "https://www.linamar.com/"];
+
     const projects = ["LoL Item Damage Calculator", "PNG File Concatenation/Reconstruction Tool", "Arduino-powered Lightsaber"]
     const projectDates = ["Feb 2020", "Sept 2019", "Jun 2017"];
     const projectDetails = ["","",""];
+    const projUrls = ["","",""];
     const projectDescription = 
         [
             [
@@ -82,8 +86,8 @@ export default function Body() {
                 <InfoPane />
                 <div className="vertical-divider"></div>
                 <div className="main-list-container">
-                    <ListContainer title="EXPERIENCE" position={position} positionDetails={positionDetails} positionDates={positionDates} descriptions={descriptions} skills={skills} />
-                    <ListContainer title="PROJECTS" position={projects} positionDetails={projectDetails} positionDates={projectDates} descriptions={projectDescription} skills={projectSkills} />
+                    <ListContainer title="EXPERIENCE" urls={urls} position={position} positionDetails={positionDetails} positionDates={positionDates} descriptions={descriptions} skills={skills} />
+                    <ListContainer title="PROJECTS" urls={projUrls}position={projects} positionDetails={projectDetails} positionDates={projectDates} descriptions={projectDescription} skills={projectSkills} />
                 </div>
             </div>
         </div>

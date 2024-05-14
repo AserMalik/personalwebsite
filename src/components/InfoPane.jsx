@@ -14,7 +14,6 @@ export default function InfoPane() {
                 </ul>
             </div>
             {/*list of languages should go here*/}
-
             <SocialMedia />
         </div>
     );
