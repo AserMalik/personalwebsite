@@ -7,8 +7,8 @@ export default function Body() {
     const positionDates = ["May 2022 – Oct 2023","Sept 2021 – Dec 2021", "Sept 2020 – Dec 2020", "Jan 2020 – Apr 2020", "May 2019 – Aug 2019", "Sept 2018 – Dec 2018", "Jan 2018 – Apr 2018"]
     const descriptions = [
         [
-            "Developed critical features and implemented hotfixes in a product purchase flow redesign project, utilizing Vue.JS/TypeScript and C# to elevate the end-user experience",
-            "Collaborated closely with QA team, engineers, and business stakeholders to drive iterative software deployment cycles, ensuring robust application logic and thorough testing across diverse projects",
+            "Developed critical features and implemented hotfixes in a product purchase flow redesign project, Vue.js (Composition API), TypeScript, and C#, optimizing performance and improving user experience by leveraging Vue’s Reactivity API, Vue Router, Lifecycle Hooks, and Pinia store",
+            "Collaborated closely with QA team, engineers, and business stakeholders across 6 projects using Vue.js, C#, Node.js, and SQL to drive iterative software deployment cycles, ensuring robust application logic and thorough testing testing for various screen sizes and device types",
             "Demonstrated proficiency in diagnosing and resolving production failures within network proxies, APIs, and web services, bolstering system reliability and performance",
             "Refactored and deployed several legacy support and internal applications with VB6, Python, C#, and SQL, optimizing for operational efficiency, stability and scalability"
         ],

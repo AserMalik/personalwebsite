@@ -75,6 +75,7 @@
 @media (max-width: 1024px) {
   .body {
     flex-direction: column;
+    padding: 3rem 1% 3rem 1%;
   }
 }
 
@@ -135,6 +136,12 @@ a .list-item {
   flex: 0 1 auto;
   width: 100%;
   /*background-color:blueviolet;*/
+}
+
+@media (max-width: 1024px) {
+  .list {
+    padding: 3rem 5% 3rem 5%;
+  }
 }
 
 .list:first-child {
